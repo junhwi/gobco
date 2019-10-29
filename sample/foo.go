@@ -1,4 +1,4 @@
-package main
+package sample
 
 func Foo(a int) bool {
 	for i := 0; i < 10; i++ {
@@ -12,8 +12,4 @@ func Foo(a int) bool {
 	} else {
 		return false
 	}
-}
-
-func Bar(a int) int {
-	return a + 1
 }
